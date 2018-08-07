@@ -22,5 +22,5 @@
 * python2.7
 
 ## visual result
-![](./S-measure/demo/result/0021.png)
+![](demo/result/0021.png)
 ![](./demo/result/846.png)
