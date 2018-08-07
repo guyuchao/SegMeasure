@@ -12,6 +12,6 @@
 
 ## detail
 
-###[Structure-Measure detail](https://github.com/guyuchao/SegMeasure/blob/master/S-measure)
+### [Structure-Measure detail](https://github.com/guyuchao/SegMeasure/blob/master/S-measure)
 
-###[Enhanced-Alignment-Measure detail](https://github.com/guyuchao/SegMeasure/blob/master/E-measure)
+### [Enhanced-Alignment-Measure detail](https://github.com/guyuchao/SegMeasure/blob/master/E-measure)
