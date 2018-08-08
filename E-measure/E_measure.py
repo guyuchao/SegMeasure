@@ -6,6 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 from sklearn.metrics import f1_score
 import os
+from math import sqrt
 
 class ConfusionMatrixBasedMeasurement:
 
@@ -27,7 +28,7 @@ class ConfusionMatrixBasedMeasurement:
         Iou=TP/(TP+FN+FP)
         return Iou
 
-    def FbetaMeasure(self,GT_path,pred_path,beta=0.3):
+    def FbetaMeasure(self,GT_path,pred_path,beta= sqrt(0.3)):
         GT,pred=self._prepare_data(GT_path,pred_path)
         TP,FP,TN,FN=self._calConfusion(GT,pred)
         P=TP/(TP+FP) #precision
